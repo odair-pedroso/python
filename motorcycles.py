@@ -43,8 +43,48 @@ print(motorcycles)
 del motorcycles[1]
 print(motorcycles)
 
+# removendo elementos através do pop
+
+motorcycles = ['honda', 'yamaha','suzuki']
+print(motorcycles)
+
+popped_motocycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motocycle)
+
+# exemplo de uso do pop()
+
+motorcycles = ['honda', 'yamaha','suzuki']
+last_owned = motorcycles.pop()
+
+print(' A última motocicleta que tive foi a ' + last_owned.title() + ".")
+
+# escolhendo o elemento da lista a ser removido com pop()
+
+motorcycles = ['honda', 'yamaha','suzuki']
+print(motorcycles)
+first_owned = motorcycles.pop(0)
+print(first_owned)
 
 
+print(' A primeira motocicleta que tive foi a '+ first_owned.title() + ".")
+
+# removendo um item de acordo com o valor usando metodo remove()
+
+motorcycles = ['honda', 'yamaha','suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
+print(motorcycles)
+
+motorcycles = ['honda', 'yamaha','suzuki', 'ducati']
+print(motorcycles)
+
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+
+print("\nA " + too_expensive.title() + " é muito cara .")
 
 
 
