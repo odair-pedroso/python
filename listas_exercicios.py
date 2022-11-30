@@ -28,3 +28,30 @@ print(message6)
 
 transportes = ['onibus', 'uber', '99', 'carro', 'biscicleta' ,'aviao', 'barco', 'trem', 'metro']
 print (transportes)
+
+frase1 = "Gosto de andar de " + transportes[0] + " todos os dias."
+print (frase1)
+
+frase2 = "Gosto de andar de " + transportes[1] + " todos os dias."
+print (frase2)
+
+frase3 = "Gosto de andar de " + transportes[2] + " todos os dias."
+print (frase3)
+
+frase4 = "Gosto de andar de " + transportes[3] + " todos os dias."
+print (frase4)
+
+frase5 = "Gosto de andar de " + transportes[4] + " todos os dias."
+print (frase5)
+
+frase6 = "Gosto de andar de " + transportes[5] + " todos os dias."
+print (frase6)
+
+frase7 = "Gosto de andar de " + transportes[6] + " todos os dias."
+print (frase7)
+
+frase8 = "Gosto de andar de " + transportes[7] + " todos os dias."
+print (frase8)
+
+frase9 = "Gosto de andar de " + transportes[8] + " todos os dias."
+print (frase9)
