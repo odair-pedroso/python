@@ -30,3 +30,20 @@ print(message4)
 print(message5)
 print(message6)
 print(message7)
+
+novo_convidado_1 = 'Duda'
+novo_convidado_2 = 'Zanza'
+novo_convidado_3 = 'Marcelo'
+
+message8 = "Olá "+ novo_convidado_1 + ", " + novo_convidado_2 + ", " + novo_convidado_3 + ", temos mais uma mesa para acomodar vocês."
+print (message8)
+
+print (lista_de_convidados)
+
+lista_de_convidados.insert(0,novo_convidado_1)
+
+lista_de_convidados.insert(4,novo_convidado_2)
+
+lista_de_convidados.append(novo_convidado_3)
+
+print(lista_de_convidados)
