@@ -24,3 +24,16 @@ print(sorted(cars))
 print('\nEsta é a lista original novamente :')
 print(cars)
 
+# exibindo uma lista em ordem reversa:
+
+print (cars)
+cars.reverse()
+print(cars)
+cars.reverse()
+
+# exibindo o tamanho de uma lista
+
+len(cars)
+print(len(cars))
+
+
